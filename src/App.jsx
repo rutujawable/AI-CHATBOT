@@ -45,7 +45,7 @@ function App ()
   return (
 	
 		<div className=' h-full'>
-			<h1 className=' text-2xl text-white bg-gray-800 text-center p-4'>
+			<h1 className=' text-2xl text-white bg-gray-800 text-center p-4 fixed top-0 left-0 w-full shadow-md z-50'>
 				Welcome to MY AI.✨
 			</h1>
 			<div className=' flex flex-col justify-center items-center gap-3 h-screen'>
