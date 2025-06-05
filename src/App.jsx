@@ -67,7 +67,7 @@ function App ()
 					
 				{loading && <div id='spinner' class='spinner'></div>}
 
-				<div className='my-3'>
+				<div className='my-3 '>
 					<input
 						type='text'
 						placeholder='Enter some text'
@@ -78,7 +78,7 @@ function App ()
 					<button
 						onClick={handleClick}
 						className=' bg-gray-800 text-1xl text-white
-					py-2 px-3 rounded-2xl mx-2 cursor-pointer'>
+					py-2 px-3 rounded-2xl mx-5 cursor-pointer'>
 						click me
 					</button>
 
